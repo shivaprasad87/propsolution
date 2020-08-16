@@ -191,9 +191,7 @@ if($this->session->userdata("user_type") == "admin")
 											  <!--//tabs-inner-->
 
 									 <!--footer section start-->
-										<footer>
-										   <p>&copy <?= date('Y')?> Prop Solutions . All Rights Reserved | Design by <a href="https://secondsdigital.com/" target="_blank">Seconds Digital Solutions.</a></p>
-										</footer>
+										<?php $this->load->view('crm_footer'); ?>
 									<!--footer section end-->
 								</div>
 							</div>

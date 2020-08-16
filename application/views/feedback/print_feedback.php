@@ -389,7 +389,7 @@ td, th {
 	            ?>
 	</form>
 </div>
-<p class="footer">&copy; <?=date('Y');?> Prop Solutionss. All Rights Reserved | Developed by <a href="http:s//secondsdigital.com"> seconds digital solutions</a></p>
+<?php $this->load->view('crm_footer'); ?>
 </div>
 
 </body>

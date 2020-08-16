@@ -617,7 +617,7 @@ img.ribbon {
  
 		</form>
 	</div>
-	<p class="footer">&copy; <?=date('Y');?> Prop Solutionss. All Rights Reserved | Developed by <a href="http:s//secondsdigital.com"> seconds digital solutions</a></p>
+	<?php $this->load->view('crm_footer'); ?>
 </div>
 
 <script src="http:s//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>

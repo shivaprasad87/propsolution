@@ -100,11 +100,11 @@
 										  	<!--//login-->
 										    <!--footer section start-->
 										<div class="footer">
-												<div class="error-btn">
-															
-															</div>
-										   <p>&copy <?= date('Y')?> Prop Solutions . All Rights Reserved | Design by <a href="https://secondsdigital.com/" target="_blank">Seconds Digital Soultions</a></p>
-										</div>
+                                                <div class="error-btn">
+                                                            
+                                                            </div>
+                                           <p>&copy <?= date('Y')?> </p>
+                                        </div>
 									<!--footer section end-->
 									<!--/404-->
 <!--js -->
